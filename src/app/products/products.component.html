@@ -1,0 +1,37 @@
+<p>products works!</p>
+<app-header></app-header>
+<div>
+  <app-search (searchResponse)="updateSearchVal($event)"></app-search>
+</div>
+<div>
+  <app-filter (filterResponse)="updateFilterVal($event)"></app-filter>
+  <div>
+    <select [(ngModel)]="selectedValue" (change)="sortVal($event)">
+      <option *ngFor="let item of selectList" value="{{ item.value }}">{{
+        item.label
+      }}</option> </select
+    >`
+  </div>
+  <div
+    *ngFor="
+      let product of products
+        | filterRange: 'price':minVal:maxVal
+        | sortBy: sortOrder:sortProperty
+        | filterBy: userFilter;
+      trackBy: trackByFn
+    "
+  >
+    {{ product.name }}
+    {{ product.price }}
+
+    <button (click)="addToCart(product)">Add to cart</button>
+  </div>
+  <div
+    *ngIf="
+      (products | filterRange: 'price':minVal:maxVal | filterBy: userFilter)
+        .length === 0
+    "
+  >
+    No matching elements
+  </div>
+</div>

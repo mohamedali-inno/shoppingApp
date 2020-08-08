@@ -1,0 +1,17 @@
+<p>cart-list works!</p>
+
+<div *ngFor="let cartItem of appDataService.cartItem; trackBy: trackByFn">
+  <div>
+    <span> {{ cartItem.name }} </span> x <span> {{ cartItem.count }} </span> :
+    <span>{{ cartItem.price * cartItem.count }}</span>
+  </div>
+</div>
+<div>
+  <span> Total:</span> <span> {{ appDataService.getTotalPrice }}</span>
+</div>
+<div>
+  <span> Discount:</span> <span> {{ discount }}%</span>
+</div>
+<div>
+  <span> SUB TOTAL:</span> <span> {{ appDataService.getSubTotalPrice }}</span>
+</div>

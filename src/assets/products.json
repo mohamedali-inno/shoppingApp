@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Apple",
+    "id": "ASD242DS",
+    "price": 313,
+    "description": "this is sndsd",
+    "image": "http://localhost:5000/images/apple.jpg"
+  },
+  {
+    "name": "Orange",
+    "id": "ASD332442DS",
+    "price": 20,
+    "description": "this is sndsd",
+    "image": "http://localhost:5000/images/apple.jpg"
+  },
+  {
+    "name": "PineApple",
+    "id": "AS223AS",
+    "price": 67,
+    "description": "this is sndsd",
+    "image": "http://localhost:5000/images/apple.jpg"
+  },
+  {
+    "name": "ABC",
+    "id": "A4242DS",
+    "price": 23,
+    "description": "this is sndsd",
+    "image": "http://localhost:5000/images/apple.jpg"
+  },
+  {
+    "name": "ABC",
+    "id": "ASD242DS",
+    "price": 213,
+    "description": "this is sndsd",
+    "image": "http://localhost:5000/images/apple.jpg"
+  },
+  {
+    "name": "Walnut",
+    "id": "ASD242DS",
+    "price": 223,
+    "description": "this is sndsd",
+    "image": "http://localhost:5000/images/apple.jpg"
+  },
+  {
+    "name": "Badam",
+    "id": "ASD242DS",
+    "price": 513,
+    "description": "this is sndsd",
+    "image": "http://localhost:5000/images/apple.jpg"
+  },
+  {
+    "name": "Orange",
+    "id": "ASD242DS",
+    "price": 80,
+    "description": "this is sndsd",
+    "image": "http://localhost:5000/images/apple.jpg"
+  },
+  {
+    "name": "Pomegranete",
+    "id": "ASD242DS",
+    "price": 13,
+    "description": "this is sndsd",
+    "image": "http://localhost:5000/images/apple.jpg"
+  },
+  {
+    "name": "Muskmelon",
+    "id": "ASD242DS",
+    "price": 3,
+    "description": "this is sndsd",
+    "image": "http://localhost:5000/images/apple.jpg"
+  }
+]

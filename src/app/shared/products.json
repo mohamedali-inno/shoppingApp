@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Apple",
+    "id": "ASD242DS",
+    "price": 213,
+    "description": "this is sndsd"
+  },
+  {
+    "name": "Orange",
+    "id": "ASD332442DS",
+    "price": 20,
+    "description": "this is sndsd"
+  },
+  {
+    "name": "PineApple",
+    "id": "AS223AS",
+    "price": 67,
+    "description": "this is sndsd"
+  },
+  {
+    "name": "ABC",
+    "id": "A4242DS",
+    "price": 23,
+    "description": "this is sndsd"
+  },
+  {
+    "name": "ABC",
+    "id": "ASD242DS",
+    "price": 213,
+    "description": "this is sndsd"
+  },
+  {
+    "name": "Walnut",
+    "id": "ASD242DS",
+    "price": 213,
+    "description": "this is sndsd"
+  },
+  {
+    "name": "Badam",
+    "id": "ASD242DS",
+    "price": 513,
+    "description": "this is sndsd"
+  },
+  {
+    "name": "Orange",
+    "id": "ASD242DS",
+    "price": 213,
+    "description": "this is sndsd"
+  },
+  {
+    "name": "Pomegranete",
+    "id": "ASD242DS",
+    "price": 13,
+    "description": "this is sndsd"
+  },
+  {
+    "name": "Muskmelon",
+    "id": "ASD242DS",
+    "price": 3,
+    "description": "this is sndsd"
+  }
+]

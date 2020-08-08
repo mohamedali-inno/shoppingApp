@@ -1,0 +1,12 @@
+<p>filter works!</p>
+
+<ng5-slider
+  formControlName="sliderControl"
+  [options]="options"
+  [(value)]="minValue"
+  [(highValue)]="maxValue"
+  (valueChange)="minValueChange($event)"
+  (highValueChange)="maxValueChange($event)"
+></ng5-slider>
+
+<button (click)="applyFilter()">Apply</button>
